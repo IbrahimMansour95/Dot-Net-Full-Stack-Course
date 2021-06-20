@@ -1,0 +1,223 @@
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+html, body, h1, h2, h3, h4, h5, h6 ,span {
+    font-family: 'Roboto', 'sans-serif' !important;
+    font-weight: normal !important;
+}
+body{
+    position: relative;
+    background-color: #f2f2f2;
+}
+
+.personal{
+    display: inline-block;
+    width: 31%;
+    height: fit-content;
+    box-shadow: -1px 6px 15px 10px #ccc;
+    margin: 20px;
+    margin-right: 0px;
+    background-color: #fff;
+
+}
+.personal img{
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.personal h1{
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.content{
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 64%;
+    height: fit-content;
+    position: absolute;
+    margin: 20px;
+    margin-bottom: 0px;
+    box-shadow: 2px 2px 5px 5px #aaa;
+    /* box-shadow: 2px 2px 10px 10px #dddddd; */
+
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+}
+.personal i{
+    margin: 5px;
+    color: #888;
+    margin-bottom: 20px;
+    
+}
+.personal i::before{
+    margin: 15px;
+    padding: 0px;
+    font-size: 15px;
+    color: #009688;
+}
+.personal hr,.work hr{
+    margin: 20px;
+    opacity: 0.5;
+}
+.progess-bar{
+    display: block;
+    margin: auto;
+    width: 380px;
+    height: 18px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.progess-bar span{
+    display: block;
+    text-align: center;
+    width: 90%;
+    height: 18px;
+    background-color: #009688;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+}
+.personal p{
+    margin-left: 20px;
+    color: #888;
+}
+.personal div:last-child{
+    margin-bottom: 50px;
+}
+
+.work{
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+}
+
+.work i{
+    color: #009688 ;
+    font-size: 16px;
+}
+
+.work i:first-child{
+    display: inline-block;
+    font-size: 35px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    opacity: 0.6;
+
+}
+.work i:first-child::before{
+    font-size: 35px;
+    margin-right: 15px;
+    margin-left: -12px;
+}
+.work i::before{
+    margin: 15px;
+    margin-left: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: #009688;
+}
+
+.work h2,p,i{
+    margin-left: 35px;
+}
+.work p{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.work h2{
+    font-weight: bolder !important;
+    color: #000;   
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.work p:last-child{
+    padding-bottom: 30px;
+}
+
+.current{
+    background-color: #009688 ;
+    padding: 5px 10px;
+    opacity: 1;
+    border-radius: 5px;
+    color: #fff;
+}
+footer{
+    display: block;
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    background: #009688;
+    height: 130px;
+    margin-top: 30px;
+}
+footer div{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+footer div a i{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color: white;
+}
+
+footer div a{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 15px;
+    cursor: default;
+
+}
+
+footer div a:hover{
+    background-color: #000;
+    opacity: 0.2;
+}
+footer p:last-child{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+}
+footer p:last-child a{
+    color: white;
+    padding-bottom: 20px;
+}
+.english span{
+    width: 100%;
+}
+.spanish span{
+    width: 50%;
+}
+
+.german span{
+    width: 15%;
+}
+.Photography span{
+    width: 80%;
+}
+.Illustrator span{
+    width: 75%;
+}
+.Media span{
+    width: 50%;
+}
+.fa-asterisk , .fa-globe-americas{
+    font-size: 20px;
+}
