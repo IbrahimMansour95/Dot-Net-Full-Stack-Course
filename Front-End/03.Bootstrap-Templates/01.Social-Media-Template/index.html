@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Social Templete</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/bootstrap.css"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/all.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/myStyle.css"
+    />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-12">
+        <!-- start navbar -->
+            <header class="">
+            <nav class="navbar nav fixed-top">
+              <ul class="navbar nav">
+                <li class="navbar-brand">
+                  <a href="#" class="nav-link bg-transparent"
+                    ><i class="fas fa-home"></i>Logo</a
+                  >
+                </li>
+                <div class="btn-group">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link bg-transparent"
+                      ><i class="fas fa-globe-asia"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link bg-transparent"
+                      ><i class="fas fa-user"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link bg-transparent"
+                      ><i class="far fa-envelope"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <div
+                      href="#"
+                      class="nav-link dropdown-hover bg-transparent"
+                    >
+                      <i class="fas fa-bell"></i>
+                      <span class="badge badge-success rounded-circle">3</span>
+
+                      <div class="btn-group-vertical">
+                        <a class="nav-link" href="#">One new friend request</a>
+                        <a class="nav-link" href="#"
+                          >John Doe posted on your wall</a
+                        >
+                        <a class="nav-link" href="#">Jane likes your post</a>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+              </ul>
+              <div class="nav-item">
+                <a href="#" class="nav-link"
+                  ><img
+                    src="imgs/avatar2.png"
+                    class="rounded-circle"
+                    width="25px"
+                    height="25px"
+                    alt=""
+                /></a>
+              </div>
+            </nav>
+          </header>
+          <!-- end navbar -->
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+          <aside>
+            <div class="card card-first text-center">
+              <h4 class="card-title">My Profile</h4>
+              <div class="card-body">
+                <img
+                  class="rounded-circle rounded-sm "
+                  src="imgs/avatar3.png"
+                  alt=""
+                />
+              </div>
+              <hr />
+              <div class="text-left profile-icons">
+                <div><i class="fas fa-pencil-alt"></i>Designer, UI</div>
+                <div><i class="fas fa-home second-home"></i>London, UK</div>
+                <div><i class="fas fa-birthday-cake"></i> April 1, 1988</div>
+              </div>
+              <br />
+            </div>
+
+            <!-- start collapse  -->
+
+            <div id="accordion" class="collapse-div">
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="card-link"
+                    data-toggle="collapse"
+                    href="#collapseOne"
+                  >
+                    <i class="fas fa-circle-notch"></i>My Groups
+                  </a>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">Some Text</div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#collapseTwo"
+                  >
+                    <i class="fas fa-calendar-check"></i>My Events
+                  </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">Some Other Text ...</div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#collapseThree"
+                  >
+                    <i class="fas fa-users"></i>My Photos
+                  </a>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    <img
+                      src="imgs/lights.jpg"
+                      width="100px"
+                      height="100px"
+                      alt=""
+                    />
+                    <img
+                      src="imgs/mountains.jpg"
+                      width="100px"
+                      height="100px"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-body">
+                    <img
+                      src="imgs/nature.jpg"
+                      width="100px"
+                      height="100px"
+                      alt=""
+                    />
+                    <img
+                      src="imgs/forest.jpg"
+                      width="100px"
+                      height="100px"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-body">
+                    <img
+                      src="imgs/lights.jpg"
+                      width="100px"
+                      height="100px"
+                      alt=""
+                    />
+                    <img
+                      src="imgs/nature (1).jpg"
+                      width="100px"
+                      height="100px"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end collapse  -->
+            <div class="card">
+              <h4 class="card-title">Interests</h4>
+              <div class="card-body">
+                <span class="badge badge-dark">News</span>
+                <span class="badge badge-dark">W3Schools</span>
+                <span class="badge badge-dark">Labels</span>
+                <span class="badge badge-dark">Games</span>
+                <br />
+                <span class="badge badge-dark">Friends</span>
+                <span class="badge badge-dark">Games</span>
+                <span class="badge badge-dark">Friends</span>
+                <span class="badge badge-dark">Food</span>
+                <span class="badge badge-dark">Design</span>
+                <br />
+                <span class="badge badge-dark">Art</span>
+                <span class="badge badge-dark">Photos</span>
+              </div>
+            </div>
+            <div class="alert alert-success alert-dismissible">
+              <button type="button" class="close" data-dismiss="alert">
+                <i class="fas fa-window-close"></i>
+              </button>
+              <h4>Hey!</h4>
+              People are looking at your profile. Find out who.
+            </div>
+          </aside>
+        </div>
+        <!-- end left side  -->
+        <!-- start posts  -->
+        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+          <section>
+              <!-- start write something -->
+            <div class="card">
+              <p class="card-title">Social Media template by w3.css</p>
+              <input type="text" class="form-control-plaintext" />
+              <button class="btn"><i class="fas fa-pencil-alt"></i>Post</button>
+            </div>
+            <!-- end write something  -->
+            <!-- start posts  -->
+            <div class="card post">
+              <div class="card-header">
+                <img src="imgs/avatar2.png" class="rounded-circle" alt="" />
+                <span>John Doe</span>
+                <span class="float-right">1 min</span>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div>
+                  <img src="imgs/lights.jpg" class="card-img" alt="" />
+                  <img src="imgs/nature.jpg" class="card-img" alt="" />
+                </div>
+                <button class="btn">
+                    <i class="fas fa-thumbs-up"></i>Like
+                </button>
+                <button class="btn">
+                  <i class="fas fa-comment"></i>Comment
+                </button>
+              </div>
+            </div>
+            <div class="card post">
+              <div class="card-header">
+                <img src="imgs/avatar5.png" class="rounded-circle" alt="" />
+                <span>Jane Doe</span>
+                <span class="float-right">16 min</span>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <button class="btn">
+                  <i class="fas fa-thumbs-up"></i>Like
+                </button>
+                <button class="btn">
+                  <i class="fas fa-comment"></i>Comment
+                </button>
+              </div>
+            </div>
+            <div class="card post">
+              <div class="card-header">
+                <img src="imgs/avatar6.png" class="rounded-circle" alt="" />
+                <span>Angie Jane</span>
+                <span class="float-right">32 min</span>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <img src="imgs/nature.jpg" class="card-img" alt="" />
+                <button class="btn">
+                  <i class="fas fa-thumbs-up"></i>Like
+                </button>
+                <button class="btn">
+                  <i class="fas fa-comment"></i>Comment
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- end posts  -->
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+          <aside>
+            <div class="card text-center right-side">
+              <p class="card-title">Upcoming Events:</p>
+              <img src="imgs/forest.jpg" class="card-img" alt="" />
+              <p>Holiday</p>
+              <p>Friday 15:00</p>
+              <button class="btn btn-light">Info</button>
+            </div>
+            <div class="card text-center right-side friend-request">
+              <p class="card-title">Friend Request</p>
+              <img src="imgs/avatar6.png" class="card-img text-center" alt="" />
+              <p>Jane Doe</p>
+              <div class="btn-group btn-group-res ">
+                <button class="btn btn-success">
+                  <i class="fas fa-check"></i>
+                </button>
+                <button class="btn btn-danger">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <div class="ads">ADS</div>
+            <div class="bug"><i class="fas fa-bug"></i></div>
+          </aside>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-12 full-footer">
+          <footer>footer</footer>
+        </div>
+        <div class="col-xl-12 full-footer">
+          <footer class="end">
+            Powered by <a href="#" class="w3-link"> w3.css </a>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.js"></script>
+  </body>
+</html>

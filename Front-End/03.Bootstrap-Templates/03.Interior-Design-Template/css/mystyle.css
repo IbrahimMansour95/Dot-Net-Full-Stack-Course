@@ -1,0 +1,240 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../font/Poppins-Regular.ttf");
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* start slide nav left  */
+.slide-nav {
+  background-color: #f44336;
+  width: 300px;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  color: white;
+}
+
+.display-6 {
+  margin: 120px 30px;
+  margin-bottom: 70px;
+  font-size: 28px;
+}
+.nav-link {
+  color: white !important;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 0px 20px;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 20px;
+}
+.navbar-collapse .navbar-nav {
+  margin: 30px 0px;
+}
+.nav-link:hover {
+  color: black !important;
+  background-color: #fff;
+}
+
+.navbar-appear {
+  display: none;
+  background-color: #f44336;
+  color: white;
+}
+.navbar-toggler {
+  margin-right: 20px;
+  padding: 0px;
+  text-align: center;
+  box-shadow: none;
+  border: none;
+  box-sizing: none;
+}
+.navbar-toggler:focus {
+  border: none;
+  outline: none;
+}
+.fa-bars {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 2px;
+}
+.fa-bars:hover {
+  background-color: #fff;
+  color: black !important;
+}
+
+/* end slide nav left  */
+/* start main content */
+
+.container-fluid {
+  margin-left: 350px;
+  width: auto;
+  margin-right: 50px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.img-link:hover img {
+  opacity: 1;
+}
+
+.line {
+  height: 10px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: #f44336;
+  margin-bottom: 50px;
+}
+.display-3 {
+  margin-top: 80px;
+}
+.display-4 {
+  margin: 40px 0px;
+  color: #f44336;
+  margin-bottom: 10px;
+}
+.sss {
+  background-color: tomato;
+  border: 3px solid black;
+}
+.container-fluid {
+  width: auto;
+}
+/* end main content */
+/* start cards*/
+.card {
+  margin-bottom: 50px;
+  background-color: #f1f1f1;
+}
+.card-img-top {
+  opacity: 1;
+  filter: grayscale(80%);
+}
+.card-content div {
+  padding: 16px;
+}
+.card-subtitle {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 24px;
+  margin: 10px 0px;
+}
+.card-text {
+  font-size: 15px;
+}
+.card-item {
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+}
+/* end cards*/
+/* start card decks*/
+
+.card-deck {
+  margin-bottom: 80px;
+}
+.card-body,
+.card-text {
+  margin: 0px;
+  padding: 0px;
+}
+.card-text {
+  padding: 20px 0px;
+  font-size: 16px;
+}
+.card-body .card-text:first-child {
+  font-size: 24px;
+  color: white;
+  padding: 30px 0px;
+}
+.per-room {
+  opacity: 0.8;
+}
+.money {
+  font-size: 30px;
+}
+.btn-light {
+  border: none;
+  border-radius: 0px;
+  color: black;
+  background-color: #f1f1f1;
+  padding: 12px 24px;
+  margin: 40px 0px;
+}
+.btn-light:hover {
+  background-color: black;
+  color: white;
+}
+.bg-f44336 {
+  background-color: #f44336;
+  color: white;
+}
+/* end card decks*/
+/* start form*/
+form p {
+  margin-bottom: 3px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid black;
+}
+input[type="submit"] {
+  width: 100%;
+}
+input[type="submit"]:hover {
+  background-color: #ccc;
+  color: black;
+}
+/* end form*/
+/* start footer*/
+footer {
+  position: absolute;
+  left: -50px;
+  right: -50px;
+  background-color: #f1f1f1;
+  padding: 32px 0px !important;
+  width: auto;
+}
+footer p {
+  margin-right: 70px;
+  color: black;
+}
+footer p a {
+  color: black;
+}
+footer p a:hover {
+  color: black;
+  opacity: 0.8;
+}
+
+/* end footer*/
+@media screen and (max-width: 1000px) {
+  .container-fluid {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .slide-nav {
+    display: none;
+  }
+  .navbar-appear {
+    display: block;
+  }
+  footer {
+    left: -50px;
+    right: 0px;
+    width: auto;
+  }
+}
