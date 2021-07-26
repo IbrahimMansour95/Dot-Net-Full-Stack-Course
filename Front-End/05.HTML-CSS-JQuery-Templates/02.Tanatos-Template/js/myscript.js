@@ -1,8 +1,9 @@
 // smooth scrolling
-$("body").niceScroll({
-    cursorcolor:"#f7600e",
-    cursorwidth:"12px"
-});
+// $("body").niceScroll({
+//     cursorcolor:"#f7600e",
+//     cursorwidth:"12px"
+// });
+
 
 // scroll to services
 $(".la-angle-down").click(function(){
