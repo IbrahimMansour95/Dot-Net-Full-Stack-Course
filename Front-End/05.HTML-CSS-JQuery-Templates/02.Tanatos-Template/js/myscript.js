@@ -18,6 +18,12 @@ $("header  button:first-child").click(function(){
         scrollTop:$("#team").offset().top
     },"slow");
 })
+// scroll to our team
+$("header  button:last-child").click(function(){
+    $("html,body").animate({
+        scrollTop:$(".work").offset().top
+    },"slow");
+})
 
 $(".work .show-hide").click(function(){
     $(".work .hide").slideToggle("slow");

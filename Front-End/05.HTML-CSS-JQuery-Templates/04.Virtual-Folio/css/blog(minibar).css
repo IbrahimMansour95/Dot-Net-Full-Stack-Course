@@ -1,0 +1,337 @@
+
+/* start global  */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Quicksand", sans-serif ;
+    position: relative;
+}
+:root{
+    --main-color: #EF3724;
+    --sec-color: #ef382426;
+}
+/* end global  */
+
+.main-content input{
+    width: 100% ;
+    margin-top: 30px ;
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--main-color);
+}
+input:focus{
+    outline: none;
+}
+.nice-select{
+    margin: 30px auto !important;
+}
+
+
+/* start minibar  */
+.mini-bar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    background-color: #2C2D34;
+    z-index: 5;
+}
+.mini-bar .icon-item{
+    color: #ddd;
+    margin:  auto;
+    width: fit-content;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: var(--main-color);
+}
+.mini-bar .icon-item div {
+    margin-top: 10px;
+    width: 100%;
+}
+.mini-bar .icon-item h5{
+    font-size: 16px;
+}
+/* end minibar  */
+
+/* start blog  */
+.card{
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 30px;
+}
+.card:hover{
+    box-shadow: 0 0 10px 10px #ddd;
+    transition: all 0.5s ease-in-out;
+}
+.card .card-body .card-title,
+.card .card-body .card-text{
+    color: #888;
+}
+.card .card-body .card-title{
+    font-weight: bold;
+}
+.card .card-body .card-title:first-child{
+    color: var(--main-color);
+    font-size: 25px;
+}
+/* end blog  */
+
+
+/* start pagination */
+.page-link {
+    background-color: #f2f4fa;
+    color: #52565c;
+    border: none;
+    margin: 20px auto;
+}
+.page-link:hover {
+    color: #52565c;
+}
+.page-item.active .page-link{
+    background-color: #52565c;
+    color: #fff;
+}
+/* start pagination */
+
+/* start footer  */
+footer{
+    padding: 20px 0px;
+    background-color: #171925;
+    color: #fff;
+}
+footer h1{
+    color: #9FA2AB ;
+    margin-bottom: 50px;
+}
+footer .content{
+    color: #9FA2AB ;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+footer .content >p:first-child{
+    color: #9FA2AB ;
+    width: fit-content;
+    border-bottom: 2px dashed  #9FA2AB;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+footer .content >p:last-child{
+    color: #fff;
+    font-size: 25px
+}
+footer .content ul{
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer .content ul li{
+    margin-bottom: 10px;
+}
+footer .content ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+footer .content ul li a:hover{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+footer h3{
+    text-align: center;
+    margin: 20px 0;
+    color: #9FA2AB ;
+}
+footer form {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+footer form input[type="email"]{
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #202334;
+    color: #9FA2AB;
+    box-shadow: 0 2px 8px rgb(16 18 27 / 60%);
+    border: none;
+    border-radius: 5px;
+}
+footer form input[type="email"]:focus{
+    border: none;
+    outline: none;
+}
+footer form input[type="submit"]{
+    display: inline-block;
+    margin: 50px auto;
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 10px 5px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out ;
+    margin: 0;
+    width: 28%;
+
+}
+footer form input[type="submit"]:hover{
+    opacity: 0.8;
+}
+footer form + p{
+    width: fit-content;
+    margin: auto;
+    color: #9FA2AB ;
+}
+.fa-heart{
+    color: #C51104;
+    animation: pulse 0.5s linear 0s infinite ;
+}
+/* end footer  */
+
+/* start settings  */
+.settings{
+    position: fixed;
+    /* right: 0.5%; */
+    right: -288px;
+    top:40%;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgb(50 50 50 / 20%);
+    z-index: 10;
+    padding: 10px;
+}
+.settings h3{
+    font-size: 20px;
+}
+.settings .colors{
+    list-style: none;
+    margin: 30px auto;
+    width: fit-content;
+    padding: 0;
+}
+.settings .colors li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.settings .colors li:hover{
+    transform: scale(1.2,1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.settings select{
+    font-size: 20px;
+    border: 2px solid #ddd;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.settings select:focus{
+    border: 2px solid #ddd;
+    outline: none;
+}
+.settings .colors li .fa-check{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.settings .colors li.active .fa-check{
+    display: block;
+}
+.settings .controls{
+    position: absolute;
+    top: 0;
+    left: -20%;
+    height: 80%;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 12px 0 0 12px;
+    box-shadow: -3px 2px 9px rgb(50 50 50 / 20%);
+}
+.settings button{
+    background: none;
+    border: none;
+    width: 100%;
+    height: 33%;
+    cursor: pointer;
+    border-radius: 12px 0 0 12px;
+    transition: all 0.5s ease-in-out;
+} 
+.settings button:focus{
+    outline: none;
+}
+.settings button:hover{
+    background-color: #ddd;
+    transition: all 0.5s ease-in-out;
+} 
+.settings .controls .fa-cog,
+.settings .controls .fa-download,
+.settings .controls .fa-question {
+    display: block;
+    color: #52565c ;
+    width: 100%;
+} 
+#top{
+    position: fixed;
+    right: 1%;
+    bottom: 3%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #171925;
+    z-index: 10;
+    display: none;
+}
+.tool-tip-donwload,
+.tool-tip-help{
+    position: absolute;
+    left: -161px;
+    bottom: 38%;
+    width: fit-content;
+    background-color: #000;
+    color: #fff;
+    width: 145px;
+    padding: 5px 10px;
+    font-size: 15px;
+    display: none;
+}
+.tool-tip-donwload::before,
+.tool-tip-help::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-style: solid;
+    border-width: 9px;
+    border-color: transparent transparent transparent #000;
+    bottom: 22%;
+    right: -18px;
+    
+}
+.tool-tip-help{
+    width: fit-content;
+    bottom: 8%;
+    left: -70px;
+}
+.settings .nice-select{
+    margin: 0px !important;
+}
+/* end settings  */
