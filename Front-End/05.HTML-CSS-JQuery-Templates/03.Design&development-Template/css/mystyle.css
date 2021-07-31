@@ -63,10 +63,13 @@ header .wave:last-of-type{
     top: 10%;
 }
 .nav-link ,.navbar-brand{
-    color: #fff;
+    color: #fff !important;
 }
 .navbar-brand .fa-magic{
     margin-right: 10px;
+}
+.fixed-top{
+    background-color: #6c5ce7;
 }
 
 header .header-content{
